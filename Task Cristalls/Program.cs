@@ -17,7 +17,6 @@ namespace Task_Cristalls
             userGold = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Excellent, adventurer! And how many cristalls do you want to buy?");
             cristallToBuy = Convert.ToInt32(Console.ReadLine());
-
             int shortChange = userGold - cristallToBuy * cristallPrice;
             Console.WriteLine("So, advanturer, here is your " + cristallToBuy + " cristalls, and your change is " + shortChange + " gold");
         }
